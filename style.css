@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #a8a3a3;
+    background-image: url(./imagens/wp.jpg);
+    background-attachment: fixed;
+}
+
+header{
+    display: block;
+    width: auto;
+    padding: 15px;
+	text-align: center;
+}
+
+#logo{
+    float: right;
+	margin: auto;
+	position: relative;
+	position: fixed;
+	top: 10px;
+	left: 20px;
+}
+
+#logo :hover{
+    content: url(./imagens/logoh.png);
+}
+
+#area-cabecalho {
+	background-color: #0a1031;
+	padding: 15px;
+	text-align: center;
+    box-shadow:  0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+#area-logo{
+    display: block;
+    margin-right: 900px;
+}
+
+#area-menu{
+    font-size: 17px;
+    position: absolute;
+    margin-top: -48.5px;
+    margin-left: 130px;
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#img{
+    width: 100px;
+}
+
+#guias{
+    text-align: center;
+    width: auto;
+    padding: 25px;
+}
+
+
+main{
+    color: #FFF;
+	width: 1080px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#intro{
+    display: inline-block;
+    width: 400px;
+    background-image: url(./imagens/titulo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow:  0 0 5px rgba(255, 255, 255, 0.9);
+}
+
+h1{
+    color: #f70000;
+    font-size: 2rem;
+    text-decoration: dotted;
+}
+
+.conteudo{
+    display: block;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-shadow:  0 0 5px rgba(255, 255, 255, 0.9);
+    background-color: #0a1031;
+}
+
+.rate img{
+    height: 140px;
+    margin-top: -70px;
+    margin-left: 938px;
+    position: absolute;
+}
+
+.rate p{
+    font-size: 2.5rem;
+    width: 125px;
+    margin-left: 1000px;
+    margin-top: -25px;
+    position: absolute;
+} 
+
+
+.img{
+    height: 300px;
+    width: 220px;
+    box-shadow:  0 0 5px rgba(227, 226, 226, 0.9);
+}
+
+.text{
+    float: right;
+    height: 300px;
+    width: 720px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.comentario{
+    padding: 25px;
+    text-align: left;
+    color: #f70000;
+	font-size: 1.5rem;
+}
+
+.links img{
+    position: relative;
+    height: 3em;
+    top: 40px;
+    background-color: #FFF;
+}
+
+
+footer{
+    display: block;
+    text-align: center;
+    background-color: rgb(48, 48, 44);
+    padding: 15px;
+    color: #FFF;
+    
+}
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+#area-cabecalho a:hover {
+	color: #f70000;
+	background: #FFF;
+	text-decoration: none;
+}
+
+.branco {
+	color: #FFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: transparent;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.conteudo :hover{
+    filter: saturate(2);
+}

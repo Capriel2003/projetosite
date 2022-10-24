@@ -83,6 +83,21 @@ function Respostas() {
 
 
 
+var r = "oi";
+function next3() {
+  var resp = document.getElementById("resp3").value;
 
+  if (resp == "noruegues" || resp == "Noruegues")
+  window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+  else{
+    if(r=='oii'){
+        window.location.replace("index.html");
+    }
+    else{
+        window.alert("ERROUUUU, talvez esteja no inspensionar :D");
+        r = "oii";
+    }
+  }
+}
 
 

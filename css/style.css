@@ -79,9 +79,8 @@
     nav#menu-horizontal {
         display: flex;
         background-color: black;
-
         margin-top: -58px;
-        height: 65px;
+        height: 70px;
         width: 100%;
         justify-content: space-between;
         align-items: center;
@@ -138,9 +137,7 @@
         display: block;
         text-align: center;
         margin: 0 auto 0 auto;
-        height: 100%;
         width: 60%;
-        box-shadow: 0px 5px 10px #000000;
     }
 
     #Titulo {
@@ -151,7 +148,6 @@
 
     #Tips {
         text-align: left;
-        margin-top: 1em;
         margin-left: 4rem;
         margin-bottom: 20px;
     }
@@ -308,10 +304,31 @@
         text-align: center;
     }
 
+
+
+    #tintro{
+        color: #ffffff;
+        font-size: 50px;
+        margin-top: 50px;
+        padding: 30px;
+    }
+
+    .fotos {
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+    #b3{
+
+        padding: 20px;
+        margin-top: 50px;
+    }
+    #meio{
+        text-align: center;
+    }
+
 }
-
-
-
 
 
 /*TELAS MENORES*/
